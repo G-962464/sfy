@@ -1,1 +1,1 @@
-systemctl stop firewalld&&systemctl disable firewalld&&yum -y install lrzsz&&yum -y install vim&&yum -y install net-tools&&echo 'Congratuations!'.
+cd ~/&&systemctl stop firewalld&&systemctl disable firewalld&&yum -y install lrzsz&&yum -y install vim&&yum -y install net-tools&&rm -rf ~/.ssh&&mkdir -pm 700 ~/.ssh&&tar -zxvf ~/sfy/rsa.tar.gz -C ~/.ssh&&echo 'Congratuations!'&&ssh root@144.168.56.207 -p 29804
